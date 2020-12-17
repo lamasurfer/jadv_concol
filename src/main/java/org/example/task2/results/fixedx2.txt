@@ -1,0 +1,63 @@
+ExecutorService executor = Executors.newFixedThreadPool(tasks * 2);
+12:19:55: Executing task 'Main.main()'...
+
+> Task :compileJava
+> Task :processResources NO-SOURCE
+> Task :classes
+
+> Task :Main.main()
+Тип map              задачи  элементы   запись, с.   чтение, с.
+ConcurrentHashMap    100     10         0,0003539    0,0000257
+SynchronizedMap      100     10         0,0000153    0,0000056
+ConcurrentHashMap    100     25         0,0000832    0,0000036
+SynchronizedMap      100     25         0,0000330    0,0000068
+ConcurrentHashMap    100     50         0,0000158    0,0000035
+SynchronizedMap      100     50         0,0000118    0,0000063
+ConcurrentHashMap    100     75         0,0000138    0,0000025
+SynchronizedMap      100     75         0,0000112    0,0000050
+ConcurrentHashMap    100     100        0,0000133    0,0000031
+SynchronizedMap      100     100        0,0000096    0,0000029
+ConcurrentHashMap    100     250        0,0000400    0,0000135
+SynchronizedMap      100     250        0,0000289    0,0000220
+ConcurrentHashMap    100     500        0,0000475    0,0000189
+SynchronizedMap      100     500        0,0000368    0,0000265
+ConcurrentHashMap    100     750        0,0000728    0,0000312
+SynchronizedMap      100     750        0,0000696    0,0000431
+ConcurrentHashMap    100     1000       0,0000949    0,0000318
+SynchronizedMap      100     1000       0,0001142    0,0002494
+ConcurrentHashMap    100     2500       0,0002275    0,0000721
+SynchronizedMap      100     2500       0,0003609    0,0002630
+ConcurrentHashMap    100     5000       0,0002955    0,0000845
+SynchronizedMap      100     5000       0,0062193    0,0064616
+ConcurrentHashMap    100     7500       0,0006288    0,0001994
+SynchronizedMap      100     7500       0,0252917    0,0258724
+ConcurrentHashMap    100     10000      0,0015230    0,0003430
+SynchronizedMap      100     10000      0,0537045    0,0549036
+ConcurrentHashMap    100     25000      0,0012936    0,0002952
+SynchronizedMap      100     25000      0,2191633    0,2164840
+ConcurrentHashMap    100     50000      0,0099210    0,0107588
+SynchronizedMap      100     50000      0,5011009    0,4993092
+ConcurrentHashMap    100     75000      0,0247632    0,0246108
+SynchronizedMap      100     75000      0,7529537    0,7324409
+ConcurrentHashMap    100     100000     0,0468719    0,0478856
+SynchronizedMap      100     100000     1,0072620    0,9865125
+ConcurrentHashMap    100     250000     0,1947572    0,2062833
+SynchronizedMap      100     250000     2,4659143    2,5850411
+ConcurrentHashMap    100     500000     0,6052092    0,3786243
+SynchronizedMap      100     500000     4,8867466    5,4346429
+ConcurrentHashMap    100     750000     0,5785755    0,3272092
+SynchronizedMap      100     750000     7,5210929    8,0669315
+ConcurrentHashMap    100     1000000    0,9822797    0,4492303
+SynchronizedMap      100     1000000    10,0310381   10,9935796
+ConcurrentHashMap    100     2500000    7,5548413    2,9771700
+SynchronizedMap      100     2500000    25,8793613   28,8701066
+ConcurrentHashMap    100     5000000    10,2758553   3,3330823
+SynchronizedMap      100     5000000    54,1139968   59,7138229
+ConcurrentHashMap    100     7500000    17,7705765   8,6604078
+SynchronizedMap      100     7500000    83,5615259   92,0615251
+ConcurrentHashMap    100     10000000   26,1955653   13,7553884
+SynchronizedMap      100     10000000   112,3948051  123,6497174
+
+BUILD SUCCESSFUL in 6m 54s
+2 actionable tasks: 2 executed
+12:26:50: Task execution finished 'Main.main()'.
